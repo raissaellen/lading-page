@@ -20,6 +20,164 @@ ul{
     gap: 47px;
 }
 
+.hamburguer {
+    display: none;
+    margin-right: 20px;
+}
+
+@media (max-width:940px) { 
+    .hamburguer{
+        display: block;
+    }
+    .responsive{
+        display: none;
+    }
+    .cta{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .sessão1 > div{
+        flex-direction: column;
+        gap: 30px !important;
+    }
+
+    .sessão1 {
+        height: 450px !important;
+    }
+
+    .sessão2 {
+        flex-direction: column-reverse;
+        height: 800px !important;
+    }
+    
+    .sessão3{
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .line{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        border-left: none !important;
+        border-right: none !important;
+        padding-top: 74px;
+        padding-bottom: 74px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    footer > div{
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+}
+
+@media (max-width:1250px){
+    .sessão5 {
+        flex-direction: column;
+        height: 900px !important;
+        align-items: center !important;
+    }
+
+    .sessão5 h4{
+        padding-left: 0 !important;
+    }
+
+    .sessão5 p{
+        padding-left: 0 !important;
+    }
+
+    .sessão5 > form{
+        padding-left: 0 !important;
+    }
+
+}
+
+@media (max-width:626px){
+    .cta > img {
+        width: 320px !important;
+        height: auto !important;
+        margin: 0 auto;
+    }
+
+    .cta{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: 100% !important;
+    }
+
+    .description{
+        max-width: 350px !important;
+    }
+
+    h1{
+        max-width: 100% !important;
+    }
+
+    .subt {
+        max-width: 100% !important;
+    }
+
+    .sessão5 h4,
+    .sessão5 p{
+        width: 100% !important;
+    }
+
+    .simple ,
+    textarea{
+        width: 100% !important;
+    }
+
+    .sessão5{
+        height: 1090px !important;
+    }
+
+    .formbutton {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .sessão5 > form{
+        width: 90%;
+    }
+
+    footer > div > form {
+        flex-direction: column;
+    }
+
+    footer > div {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .sessão4 > div {
+        width: 100% !important;
+    }
+
+    .sessão2 > img{
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .sessão4{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .sessão3 > div{
+        width: 100% !important; 
+    }
+    
+    .principal{
+        padding-left: 20px !important;
+    }
+
+    .ver{
+        align-self: center;
+    }
+    
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -78,6 +236,7 @@ nav{
     padding-bottom: 123px;
     margin-top: 80px;
 }
+
 
 .description{
     max-width: 465px;
@@ -371,7 +530,7 @@ textarea::placeholder {
     padding-top: 55px;
     padding-left: 190px;
 }
- 
+
 .simple {
     width: 431px;
     height: 47px;
